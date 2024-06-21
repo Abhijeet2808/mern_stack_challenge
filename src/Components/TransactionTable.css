@@ -1,0 +1,69 @@
+.transactions-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.transactions-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.transactions-container input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transactions-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.transactions-container th,
+.transactions-container td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactions-container th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.transactions-container tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transactions-container tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  color: #333;
+}
+
+.pagination-controls button:disabled {
+  cursor: not-allowed;
+  color: #aaa;
+  border-color: #eee;
+}
